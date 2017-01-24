@@ -8,7 +8,7 @@
     "jest": "^18.1.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "node --harmony node_modules/jest-cli/bin/jest.js"
   },
   "jest": {
     "testEnvironment": "node"
