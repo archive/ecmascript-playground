@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "eslint": "^3.14.0",
+    "eslint-cli": "^1.1.0"
+  },
+  "name": "service-workers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "scripts": {
+    "eslint": "node node_modules/eslint/bin/eslint.js -c .eslintrc *.js"
+  }
+
+}

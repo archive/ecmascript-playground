@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>page-2</title>
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js', {
+        scope: '/'
+      });
+    }
+  </script>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+  <h1>page-2</h1>
+  <a href="/index.html">index</a>
+  <a href="/page-1.html">page-1</a>
+  <p><img class="img-responsive" src="/static/http-unsplash.it-458-354.jpg" alt=""><p>
+  <script type="text/javascript" src="/static/app.js"></script>
+</body>
+</html>
